@@ -1,0 +1,113 @@
+body{
+    background-color: purple;
+}
+
+h1{
+    text-align: center;
+    color: white;
+    
+}
+textarea{
+    border: none;
+}
+html{
+    font-weight: bold;
+}
+
+.info input{
+    border: none;
+    height: 20px;
+    padding: 3px;
+
+}
+
+.info input , textarea:focus{
+    outline: none;
+    box-shadow: 0 0 10px  #66B2FF;
+}
+main{
+    margin-left: 17%;
+    margin-right: 17%;
+    background-color: yellow;
+    padding: 15px 5px;
+}
+div{
+    margin-top: 15px;
+    margin-bottom: 15px;
+}
+
+#age{
+    margin-left: 10px;
+}
+
+#name, #email{
+    margin-left: 8px;
+}
+
+.info{
+    text-align: center;
+    transform: translateX(30px);
+}
+
+.role{
+    margin-top: 15px;
+    transform: translateX(67px);
+}
+
+
+.role select{
+    margin-left: 8px;
+}
+
+#space{
+    margin-left: 105px;
+}
+.recommendation .recommendation-input{
+    transform: translateY(23px);
+}
+
+.recommendation input{
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
+
+.recommendation{
+    transform: translateY(-35px);
+}
+.recommendation table{
+    transform: translateX(57px);
+}
+
+.FCC{
+    
+    transform: translateX(140px);
+}
+.FCC select{
+    margin-left: 8px;
+}
+
+#improve{
+    margin-left: 150px;
+}
+
+.improve{
+    transform: translateX(23px);
+}
+
+.comments{
+    transform: translateX(105px);
+}
+
+.button{
+    text-align: center;
+}
+
+.button input{
+    background-color: #66B2FF;
+    border: none;
+    cursor: pointer;
+    width: 70px;
+    height: 30px;
+    color: white;
+    border-radius: 5px;
+}
